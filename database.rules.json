@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "marketState": {
+      ".read":  true,
+      ".write": "auth != null"
+    },
+    "chat": {
+      ".read":  true,
+      ".write": "auth != null"
+    }
+  }
+}
